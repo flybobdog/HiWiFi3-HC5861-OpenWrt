@@ -16,8 +16,8 @@
 #固件架构
 cat >> .config <<EOF
 CONFIG_TARGET_ramips=y
-CONFIG_TARGET_ramips_mt7620=y
-CONFIG_TARGET_ramips_mt7620_DEVICE_hiwifi_hc5861=y
+CONFIG_TARGET_ramips_mt7621=y
+CONFIG_TARGET_ramips_mt7621_DEVICE_hiwifi_hc5861=y
 EOF
 
 #取消默认启用的软件
